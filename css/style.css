@@ -1,0 +1,146 @@
+html{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container{
+    max-width: 1440px;
+    max-height: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EDF2C5;
+}
+header{
+display: flex;
+justify-content: space-between;
+width: 1122px;
+height: 60px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom:10px;
+align-items:center;
+}
+.subthing{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    width:208px;
+    font-size: 14px;
+    font-weight: 700;
+    justify-content: space-between;
+}
+
+.buttom{
+    padding: 4px 8px;
+    border: solid 1px #778A50;
+    border-radius: 3px;
+    color: #778A50;
+
+}
+
+.title{
+ color:#778A50;
+ font-size: 44px;
+ font-weight:900;
+ margin: 0%;
+ padding:2px;
+ box-sizing: content-box;
+padding:0;
+}
+
+nav{
+    background-color:#778A50;
+    color: #EDF2C5;
+    font-weight:900;
+    box-sizing:border-box;
+    width: 1120px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    align-items: center;
+    display: flex;
+    padding:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-list{
+    display: inline-flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-grow:0.3;
+    padding-left:30px;
+    
+}
+
+.capitalview{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:16px;
+    margin-bottom:32px;
+    width: 1120px;
+    height: 448px;
+}
+
+.subcontent{
+    margin-left: auto;
+    margin-right: auto;
+    display: flexbox;
+    display: flex;
+    width: 1120px;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.subtitle{
+    background-color: #778A50;
+    color: #EDF2C5;
+    font-weight:900;
+    box-sizing: border-box;
+    height: 45px;
+    width: 528px;
+    padding-top: 10px;
+    padding-bottom:11px;
+    padding-left:30px;
+    border-radius: 3px;
+    margin-bottom:16px;
+}
+
+.vegetables-pic{
+margin: 0%;
+display: flex;
+justify-content: space-between;
+
+}
+.asidecontent{
+    background-color: #F7FBDA;
+    color:#7D7D7D ;
+    font-size: 12px;
+    line-height: 150%; /* 18px */
+    font-weight:400;
+    display: flex;
+    box-sizing: border-box;
+    width: 528px;
+    height: 140px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0%;
+    }
+
+
+footer{
+    display: flex;
+    max-width: 1440px;
+    height: 60px;
+    justify-content:center;
+    align-items: center;
+    font-weight: 400;
+    line-height: 150%; /* 18px */
+    background-color: #778A50;
+    color:#EDF2C5;
+    font-size:12px;
+    margin-top:117px;
+    
+}
